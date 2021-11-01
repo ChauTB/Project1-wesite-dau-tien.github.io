@@ -1,0 +1,49 @@
+[class*="col-"]{
+    width: 100%;
+    text-align: center;
+    line-height: 1.7em;
+}
+body{
+    background-color: rgb(209, 186, 186);
+}
+.button {
+    background-color: #58257b;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    padding: 0.2em -0.2em 0.2em -0.2em;
+    text-align: center;
+    cursor: pointer;
+}
+img{
+    margin-top: 0.5em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    box-sizing: border-box;
+}
+.input ul{
+    list-style-type: none;
+    margin-left: -2.2em;
+    
+}
+p{
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.1em;
+}
+
+@media only screen and (min-width:768px) {
+    li{
+        display: inline;
+    }
+    img{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media only screen and (min-width:992px) {
+ img{
+     padding-left: 15%;
+     padding-right: 15%;
+ }   
+}

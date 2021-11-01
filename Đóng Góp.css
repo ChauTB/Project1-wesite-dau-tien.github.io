@@ -1,0 +1,49 @@
+[class*="col-"]{
+    width: 100%;
+}
+body {
+    background-color: rgb(9, 49, 83);
+    text-align: center;}
+h1,h2,h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+.ten{
+    color: rgb(234, 240, 221);
+}
+.button {
+    background-color: #58257b;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    padding: 0.5em 0.5em ;
+    cursor: pointer;
+    margin-left: -0.3em;
+}
+input {
+    border: none;
+    border-radius: 1em;
+    padding: 0.5em 2em 0.5em 2em;
+    text-align: center;
+}
+img{
+    padding-top: 5%;
+}
+@media only screen and (min-width: 768px) {
+   body{
+    padding-right: 5%;
+    padding-left: 5%;
+   }
+   img{
+    padding-top: 4%;
+}
+}
+@media only screen and (min-width:992px){
+    body{
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    img{
+        padding-top: 2%;
+    }
+}

@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+            
+    nav{height: 95px;}
+    #menu{
+        font-size: 75%;
+    }
+    nav #menu li a{
+        line-height: 70px;
+    }
+    .space, .space2, .space3{
+        margin: 10% 4% 10% 4%;
+    }
+    .space1{
+        margin-top: 5%;
+    }
+    h1,h2,h3{
+        font-size: 210%;
+    }
+    .content{
+        text-align: center;
+    }
+    .content .p{
+        border-bottom: 1px solid #a59c9f;
+        padding-bottom: 35px;       
+    }  
+    .container .mui{
+        height: 30% !important;
+    }
+    .container .thuduy{
+        height: 30% !important;
+    }
+}
